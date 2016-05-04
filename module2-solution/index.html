@@ -3,135 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
-
+<header><div>
+Lorem Ipsum 
+</div>
+</header>
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+<div class="innerContainer">
+  <div class="colHeader colHeaderA">Chicken</div>
+  <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula convallis mi quis euismod. Etiam nunc augue, blandit nec quam vel, semper placerat nibh. Praesent sollicitudin sodales felis fringilla rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam in fermentum est. Vivamus mauris nunc, fermentum sed gravida et, fringilla in quam. In pretium euismod velit aliquet tincidunt. Nulla aliquam, enim eu aliquet finibus, augue ex luctus ex, id aliquet tellus nisi id urna. Donec eu eros quis augue finibus facilisis. Phasellus pulvinar nisi et lectus finibus sodales. Aenean a velit arcu. Vivamus cursus quam et faucibus finibus. Maecenas dapibus rutrum fermentum.</p></div></div></div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  <div class="innerContainer">
+  <div class="colHeader colHeaderB">Beef</div>
+  <div class="content"><p>Nulla nulla urna, commodo vitae tincidunt non, ultrices quis nibh. Maecenas accumsan in metus sit amet bibendum. Morbi posuere ac mi ac dictum. Sed consequat facilisis felis, in maximus augue condimentum nec. Vestibulum ut interdum augue, id facilisis nisl. Proin id elit odio. Donec dapibus in eros et lobortis. Sed risus purus, efficitur nec tincidunt fermentum, lacinia faucibus libero. In massa ex, tristique vel elit eu, tincidunt venenatis est. Vivamus quis lobortis turpis. Donec nec convallis erat, eu dictum tortor.</p></div></div></div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  <div class="innerContainer">
+  <div class="colHeader colHeaderC">Sushi</div>
+  <div class="content"><p>Nam bibendum, justo non ultrices dignissim, urna quam facilisis odio, non placerat elit sapien at magna. Sed in venenatis sem, ac malesuada est. Integer ac mi vitae risus mattis posuere. Praesent a erat at mi tempor scelerisque non ac libero. Ut vel turpis nec lacus facilisis feugiat venenatis sit amet elit. Nulla sagittis convallis ullamcorper. Sed vulputate, neque quis bibendum fermentum, est eros congue tortor, a pulvinar ipsum elit vitae augue. Nam malesuada est augue, sit amet rhoncus tortor efficitur et. Maecenas dapibus nec orci volutpat dictum. Nunc luctus ultrices nunc ac placerat. Aenean tristique diam suscipit, convallis mauris vel, placerat mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p></div></div> </div>
 </div>
 
 </body>
